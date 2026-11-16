@@ -32,12 +32,12 @@ This project demonstrates a **computational approach** to predict protein functi
 ###  2. Feature Engineering
 ####  Amino Acid Composition (AAC)
 * Converts sequence → frequency of 20 amino acids
-* Captures **global composition**0
+* Captures **global composition**
   
 ####  k-mer Features (k = 2)
 * Extracted top 100 dipeptides
 * Captures **local sequence patterns**
-* 
+
 #### Combined Features
 * Integrated AAC + k-mer
 * Captures both **global + local information**
@@ -46,7 +46,7 @@ This project demonstrates a **computational approach** to predict protein functi
 * Logistic Regression (baseline)
 * Random Forest (primary model)
   
-### 🔹 4. Evaluation Strategy
+### 4. Evaluation Strategy
 * Stratified Train-Test Split (80/20)
 * Metrics:
   * Accuracy
