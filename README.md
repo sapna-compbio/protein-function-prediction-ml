@@ -1,6 +1,10 @@
-#  Protein Function Prediction using Machine Learning
+# Protein Function Prediction using Machine Learning
 
-##  Overview
+<p align="center">
+  <img src="protein.png" alt="Protein Function Prediction Hero Banner" width="100%">
+</p>
+
+## Overview
 
 This project builds a machine learning pipeline to **predict protein function directly from amino acid sequences**.
 Proteins are classified into four functional categories:
